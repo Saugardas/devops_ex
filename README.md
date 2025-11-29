@@ -51,3 +51,11 @@
 
 Запуск анализа: `python scripts/generate_monitoring_report.py`
 
+
+## Отчет нагрузочного тестирования
+ reports/Locust_2025-11-29-22h33_158.160.117.34.html
+
+## Адрес сервиса:
+
+[http://158.160.117.34/health](http://158.160.117.34/health)
+
