@@ -41,3 +41,13 @@
 Запускаем сервер:
 
 `uvicorn app.main:app --reload`
+
+
+## Анализ дрефа данных
+
+Выполнен с помощью EvidentlyAI
+
+Отчет сохранаяется в reports/evidently_report.html
+
+Запуск анализа: `python scripts/generate_monitoring_report.py`
+
