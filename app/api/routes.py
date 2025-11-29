@@ -7,7 +7,7 @@ router = APIRouter()
 async def health():
     return {"status": "ok"}
 
-@router.post("/predict")
+@router.get("/predict")
 async def predict_handler(sepal_length: float, sepal_width: float):
     prediction = predict(sepal_length, sepal_width)
     return {"prediction": prediction}
